@@ -1,0 +1,7 @@
+delimiter $$
+create procedure consultar_clientes()
+begin
+	select * from customer;
+
+end $$
+delimiter ;
